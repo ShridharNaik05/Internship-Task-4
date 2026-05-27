@@ -1,0 +1,184 @@
+.container{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.left-side{
+  height: 700px;
+  background-color: rgb(238, 244, 223);
+  padding: 10px;
+  border-radius: 15px;
+
+}
+
+
+
+.foodicon{
+  background-color: rgb(241, 247, 247);
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.dashboard{
+  background-color: white;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.food-order{
+  background-color: white;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.feedback{
+  background-color: white;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.message{
+  background-color: white;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.order-history{
+  background-color: white;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.payment{
+  background-color: white;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.customization{
+  background-color: white;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.foodimg{
+  height: 100px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.text{
+margin-left: 20px;
+}
+
+.content{
+  flex: 4;
+  background-color: rgb(246, 232, 215);
+  height: 700px;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+
+
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.header input {
+  flex: 0.5;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.header button {
+  padding: 12px 20px;
+  border: none;
+  background: #ff6b35;
+  color: white;
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+  height: 600px;
+  background: rgb(59, 57, 57);
+  padding: 20px;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.middle{
+  background-color: white;
+  border-radius: 15px;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side{
+  background-color: white;
+  padding: 100px;
+  border-radius: 15px;
+  flex:0.1;
+}  
+
+.explore{
+  background-color: blue;
+  flex:0;
+  gap: 10px;
+}
+
+.menu{
+  background-color: burlywood;
+  flex: 1;
+}
+
