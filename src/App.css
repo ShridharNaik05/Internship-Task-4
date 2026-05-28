@@ -183,91 +183,114 @@
 }
 
 .right-side{
-  flex: 1;
-  background-color: white;
+  width: 260px;
+  background: white;
   border-radius: 15px;
-  padding: 20px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.invoice-box{
-  margin-top: 20px;
+.invoice-title{
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.invoice-list{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .invoice-item{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  background: #fafafa;
-  padding: 10px;
-  border-radius: 12px;
+  gap: 12px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
 }
 
 .invoice-item img{
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.invoice-text{
-  flex: 1;
-  margin-left: 10px;
-}
-
-.invoice-text p{
+.invoice-info p{
   font-size: 14px;
   margin-bottom: 5px;
 }
 
-.invoice-text span{
+.invoice-info span{
   color: #ff6b35;
   font-weight: bold;
 }
 
-.quantity{
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.quantity button{
-  width: 25px;
-  height: 25px;
-  border: none;
-  border-radius: 5px;
-  background: #ff6b35;
-  color: white;
-  cursor: pointer;
-}
-
 .payment-summary{
-  margin-top: 30px;
-  background: #fafafa;
+  margin-top: 25px;
+  border: 1px dashed #d8d8d8;
+  border-radius: 15px;
   padding: 15px;
-  border-radius: 12px;
 }
 
-.summary-row{
+.payment-summary h4{
+  margin-bottom: 15px;
+}
+
+.summary-line{
   display: flex;
   justify-content: space-between;
-  margin: 12px 0;
+  margin-bottom: 12px;
   font-size: 14px;
 }
 
-.total{
+.total-payment{
   font-weight: bold;
-  font-size: 16px;
+  margin-top: 18px;
 }
 
-.checkout-btn{
+.payment-method{
+  margin-top: 20px;
+}
+
+.payment-method p{
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.payment-images{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.pay-box{
+  width: 70px;
+  height: 50px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.pay-box img{
+  width: 45px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.place-order-btn{
   width: 100%;
-  padding: 12px;
+  margin-top: 20px;
+  padding: 14px;
   border: none;
+  border-radius: 12px;
   background: #ff6b35;
   color: white;
-  border-radius: 10px;
-  margin-top: 15px;
-  cursor: pointer;
   font-size: 15px;
+  cursor: pointer;
 }

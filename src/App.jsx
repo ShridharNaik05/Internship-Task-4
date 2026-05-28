@@ -220,95 +220,102 @@ function App() {
 
             </div>
 
-            <div className="right-side">
+<div className="right-side">
 
-  <h2>Invoice</h2>
+  <h3 className="invoice-title">Invoice</h3>
 
-  <div className="invoice-box">
+  <div className="invoice-list">
 
     <div className="invoice-item">
+
       <img src={vegitable} alt="Vegetable Burger" />
 
-      <div className="invoice-text">
+      <div className="invoice-info">
         <p>Vegetable Burger</p>
         <span>$25</span>
       </div>
 
-      <div className="quantity">
-        <button>-</button>
-        <span>1</span>
-        <button>+</button>
-      </div>
     </div>
 
     <div className="invoice-item">
+
+      <img src={meat} alt="Meat Burger" />
+
+      <div className="invoice-info">
+        <p>Meat Burger</p>
+        <span>$28</span>
+      </div>
+
+    </div>
+
+    <div className="invoice-item">
+
       <img src={cheese} alt="Cheese Burger" />
 
-      <div className="invoice-text">
+      <div className="invoice-info">
         <p>Cheese Burger</p>
         <span>$32</span>
       </div>
 
-      <div className="quantity">
-        <button>-</button>
-        <span>2</span>
-        <button>+</button>
-      </div>
-    </div>
-
-    <div className="invoice-item">
-      <img src={salmon} alt="Wild Salmon Burger" />
-
-      <div className="invoice-text">
-        <p>Wild Salmon Burger</p>
-        <span>$40</span>
-      </div>
-
-      <div className="quantity">
-        <button>-</button>
-        <span>1</span>
-        <button>+</button>
-      </div>
     </div>
 
   </div>
 
   <div className="payment-summary">
 
-    <h3>Payment Summary</h3>
+    <h4>Payment Summary</h4>
 
-    <div className="summary-row">
-      <p>Order Total</p>
-      <span>$137</span>
+    <div className="summary-line">
+      <p>Sub Total</p>
+      <span>$85</span>
     </div>
 
-    <div className="summary-row">
-      <p>Items Discount</p>
-      <span>-$10</span>
+    <div className="summary-line">
+      <p>Tax</p>
+      <span>-$6</span>
     </div>
 
-    <div className="summary-row">
-      <p>Coupon Discount</p>
-      <span>-$5</span>
+    <div className="summary-line total-payment">
+      <p>Total Payment</p>
+      <span>$79</span>
     </div>
 
-    <div className="summary-row">
-      <p>Delivery Fee</p>
-      <span>$8</span>
+    <div className="payment-method">
+
+      <p>Payment Method</p>
+
+      <div className="payment-images">
+
+        <div className="pay-box">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+            alt="paypal"
+          />
+        </div>
+
+        <div className="pay-box">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg"
+            alt="visa"
+          />
+        </div>
+
+        <div className="pay-box">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
+            alt="mastercard"
+          />
+        </div>
+
+      </div>
+
     </div>
-
-    <hr />
-
-    <div className="summary-row total">
-      <p>Total</p>
-      <span>$130</span>
-    </div>
-
-    <button className="checkout-btn">
-      Checkout
-    </button>
 
   </div>
+
+  <button className="place-order-btn">
+    Place An Order Now
+  </button>
 
 </div>
 
