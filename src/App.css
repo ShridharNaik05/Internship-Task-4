@@ -44,7 +44,7 @@
 }
 
 .customization{
-  margin-bottom: 120px;
+  margin-bottom: 180px;
 }
 
 .foodimg{
@@ -56,12 +56,12 @@
 
 .text{
   font-size: 14px;
-  line-height: 20px;
+  text-align: center;
 }
 
 .content{
   flex: 1;
-  background-color: white;
+  background-color: rgb(217, 226, 225);
   padding: 20px;
   border-radius: 15px;
 }
@@ -116,8 +116,8 @@
 
 .box{
   width: 120px;
-  height: 70px;
-  border: 1px solid #ddd;
+  height: 50px;
+  border: 1px solid beige;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -180,4 +180,94 @@
 .menubox button:last-child{
   background-color: #ff6b35;
   color: white;
+}
+
+.right-side{
+  flex: 1;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.invoice-box{
+  margin-top: 20px;
+}
+
+.invoice-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.invoice-item img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.invoice-text{
+  flex: 1;
+  margin-left: 10px;
+}
+
+.invoice-text p{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.invoice-text span{
+  color: #ff6b35;
+  font-weight: bold;
+}
+
+.quantity{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quantity button{
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background: #ff6b35;
+  color: white;
+  cursor: pointer;
+}
+
+.payment-summary{
+  margin-top: 30px;
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.summary-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.total{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.checkout-btn{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #ff6b35;
+  color: white;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 15px;
 }

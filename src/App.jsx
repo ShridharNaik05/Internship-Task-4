@@ -222,9 +222,95 @@ function App() {
 
             <div className="right-side">
 
-              <h3>Invoice</h3>
+  <h2>Invoice</h2>
 
-            </div>
+  <div className="invoice-box">
+
+    <div className="invoice-item">
+      <img src={vegitable} alt="Vegetable Burger" />
+
+      <div className="invoice-text">
+        <p>Vegetable Burger</p>
+        <span>$25</span>
+      </div>
+
+      <div className="quantity">
+        <button>-</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <div className="invoice-item">
+      <img src={cheese} alt="Cheese Burger" />
+
+      <div className="invoice-text">
+        <p>Cheese Burger</p>
+        <span>$32</span>
+      </div>
+
+      <div className="quantity">
+        <button>-</button>
+        <span>2</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <div className="invoice-item">
+      <img src={salmon} alt="Wild Salmon Burger" />
+
+      <div className="invoice-text">
+        <p>Wild Salmon Burger</p>
+        <span>$40</span>
+      </div>
+
+      <div className="quantity">
+        <button>-</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div className="payment-summary">
+
+    <h3>Payment Summary</h3>
+
+    <div className="summary-row">
+      <p>Order Total</p>
+      <span>$137</span>
+    </div>
+
+    <div className="summary-row">
+      <p>Items Discount</p>
+      <span>-$10</span>
+    </div>
+
+    <div className="summary-row">
+      <p>Coupon Discount</p>
+      <span>-$5</span>
+    </div>
+
+    <div className="summary-row">
+      <p>Delivery Fee</p>
+      <span>$8</span>
+    </div>
+
+    <hr />
+
+    <div className="summary-row total">
+      <p>Total</p>
+      <span>$130</span>
+    </div>
+
+    <button className="checkout-btn">
+      Checkout
+    </button>
+
+  </div>
+
+</div>
 
           </div>
 
