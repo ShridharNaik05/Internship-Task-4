@@ -12,6 +12,7 @@ import meat from './assets/meat.jpg';
 import cheese from './assets/cheese.jpg';
 import been from './assets/been.jpg';
 import salmon from './assets/salmon.jpg';
+import order from './assets/order.jpg';
 
 function App() {
 
@@ -41,7 +42,9 @@ function App() {
 
           </div>
 
-          <div className="foodimg"></div>
+          <div className="foodimg">
+            <img src={order} alt="Burger" />
+          </div>
 
           <div className="text">
             <b>How to order food?</b>
