@@ -70,7 +70,8 @@ function App() {
 
               <div className="explore">
 
-                <div className="box">
+                <div className="explore-1">
+                  <div className="box">
                   <img src={donuts} alt="Donuts" />
                   <span>Donuts</span>
                 </div>
@@ -94,8 +95,10 @@ function App() {
                   <img src={potato} alt="Potato" />
                   <span>Potato</span>
                 </div>
+                </div>
 
-                <div className="box">
+                <div className="explore-2">
+                  <div className="box">
                   <img src={fuchka} alt="Fuchka" />
                   <span>Fuchka</span>
                 </div>
@@ -119,6 +122,7 @@ function App() {
                   <img src={chicken} alt="Chicken" />
                   <span>Chicken</span>
                 </div>
+                </div>
 
               </div>
 
@@ -129,7 +133,8 @@ function App() {
 
               <div className="menu">
 
-                <div className="menubox">
+                <div className="menu-1">
+                  <div className="menubox">
 
                   <img src={vegitable} alt="Vegetable Burger" />
 
@@ -173,8 +178,10 @@ function App() {
                   </div>
 
                 </div>
+                </div>
 
-                <div className="menubox">
+                <div className="menu-2">
+                  <div className="menubox">
 
                   <img src={vegitable} alt="Vegetable Burger" />
 
@@ -217,6 +224,7 @@ function App() {
                     <button>Order Now</button>
                   </div>
 
+                </div>
                 </div>
 
               </div>
