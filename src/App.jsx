@@ -306,8 +306,8 @@ function App() {
 
         <div className="pay-box">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg"
-            alt="visa"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Google_Pay_Logo.svg"
+            alt="Google Pay"
           />
         </div>
 
@@ -317,6 +317,14 @@ function App() {
             alt="mastercard"
           />
         </div>
+
+        <div className="pay-box">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/71/PhonePe_Logo.svg"
+            alt="PhonePe"
+          />
+        </div>
+
 
       </div>
 
